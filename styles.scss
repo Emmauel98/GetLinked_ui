@@ -1,0 +1,86 @@
+
+
+          <motion.div
+          style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+        >
+          {words.map((word, index) => (
+            <motion.span
+              variants={child}
+              style={{ marginRight: "5px" }}
+              key={index}
+            >
+              {word}
+            </motion.span>
+          ))}
+        </motion.div>
+
+
+
+
+
+
+
+        <motion.div 
+       className=" overflow-hidden 
+        flex text-[2rem]"
+          variants={container}
+          initial="hidden"
+          whileInView="visible">
+          {
+            words.map((word,index)=>{
+              // console.log(word)
+              return(
+                <motion.span key={index} 
+                className="text-[1.5rem] md:text-[1.7rem]
+                 lg:text-[2rem] ml-3"
+                 variants={child}
+                // initial={{x:-200,}}
+                // whileInView={{x:0}}
+                >{word}</motion.span>
+              )
+            })
+          };
+          </motion.div>
+
+
+
+
+
+          <motion.div
+          // style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
+          className=" overflow-hidden flex text-[2rem]"
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+        >
+          {/* {words.map((word, index) => {
+            return(
+            <motion.span
+              variants={child}
+              // style={{ marginRight: "5px" }}
+              className="mr-3 text-[1.5rem] md:text-[1.7rem]
+              lg:text-[2rem]"
+              key={index}
+            >
+              {word}
+            </motion.span>
+            )
+            })} */}
+            {
+            words.map((word,index)=>{
+              // console.log(word)
+              return(
+                <motion.span key={index} 
+                className="text-[1.5rem] md:text-[1.7rem]
+                 lg:text-[2rem] ml-3"
+                 variants={child}
+                // initial={{x:-200,}}
+                // whileInView={{x:0}}
+                >{word}</motion.span>
+              )
+            })
+          };
+        </motion.div>

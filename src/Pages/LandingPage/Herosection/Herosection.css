@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+.herosection{
+    font-family: 'Montserrat', sans-serif;
+}
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;   
+}
+.font-ClashDisplay{
+    font-family: 'Clash Display', sans-serif;
+}
+.timer{
+    font-family: 'Unica One', cursive;
+}
+.virtual{
+    /* animation: twinkle 4s infinite; */
+    animation: twinkling 14s infinite;
+
+};
+/* @keyframes twinkle{
+    0%{
+        display: none;
+    };
+    25%{
+        display: block;
+    };
+    50%{
+        display: none;
+    };
+    75%{
+        display: block;
+    };
+    100%{
+        display: none;
+    }
+} */
+/* 
+@keyframes twinkling {
+    0%, 100% {
+      margin-top: 0rem;
+    }
+    50% {
+      margin-top: 5rem;
+    }
+  } */

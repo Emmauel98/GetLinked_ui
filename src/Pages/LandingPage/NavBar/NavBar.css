@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+    font-family: 'Clash Display', sans-serif;
+}
+.TopNavBarFont{
+    font-family: 'Montserrat', sans-serif;
+}
+li:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 1s .2s cubic-bezier(0.4, 0, 0.19, 1.43);
+    background-color: aqua;
+}
+li:hover:after{
+    width: 70px;
+}

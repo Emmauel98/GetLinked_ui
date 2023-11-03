@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/made-tommy-soft-outline');
+
+.questionTag{
+    font-family: 'MADE Tommy Soft Outline', sans-serif;
+    /* font-family: 'MADE Tommy Soft', sans-serif; */
+    /* animation: hop 1s infinite; */
+    animation: twinkling 14s infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+};
+
+/* @keyframes hop {
+    0%,100%{
+        font-size: 10rem;
+        color: #A866FD;
+        display: none;
+    };
+    50%{
+        font-size: 14rem;
+        color: #D434FE;
+        display: none;
+    }
+}; */
+/* animation: twinkling 14s infinite; */
+@keyframes twinkling {
+    0%, 100% {
+      opacity: 0;
+      margin-top: 0rem;
+    }
+    50% {
+      opacity: 1;
+      margin-top: 5rem;
+    }
+  }
