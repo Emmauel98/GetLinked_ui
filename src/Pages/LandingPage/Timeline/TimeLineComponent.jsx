@@ -7,7 +7,7 @@ const TimeLineComponent = () => {
 
   return (
     <>
-      <div className="bg-[#150E28] py-10">
+      <div className="bg-[#150E28] py-10 overflow-hidden">
         <h1 className="text-center lg:text-[3rem] md:text-[2.4rem] text-[2rem]">Timeline</h1>
         <p className="text-center font-['Montserrat'] mx-5">
           Here is the breakdown of the time we anticipate <br />

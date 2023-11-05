@@ -12,7 +12,7 @@ const PriceAndAwardsComponent = () => {
   const deviceWidth = window.outerWidth;
   return (
     <>
-      <div className="bg-[rgb(17,11,32)] relative py-10 md:p-10 h-auto">
+      <div className="bg-[rgb(17,11,32)] relative py-10 md:p-10 h-auto overflow-hidden">
       <img src={Purple_Lens_Flare} alt="purple_lens_flare"
               className=" absolute lg:top-0 lg:right-[20vw]
               md:right-[10vw] right-[10vw] top-[25vh] opacity-30" />

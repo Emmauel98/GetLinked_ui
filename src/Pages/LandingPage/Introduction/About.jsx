@@ -53,7 +53,7 @@ const child = {
     <>
       <div 
         className="bg-[rgb(21,14,40)] w-full h-auto 
-        md:flex p-[8%]">
+        md:flex p-[8%] overflow-hidden">
         <div className="relative md:w-1/2">
           <img src={star} alt="star" className="absolute" />
           <img src={bulb} alt="bulb" 

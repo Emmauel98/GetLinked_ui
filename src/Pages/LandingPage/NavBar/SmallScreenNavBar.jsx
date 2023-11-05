@@ -18,12 +18,13 @@ const SmallScreenNavBar = ({hideTopNavBar}) => {
   return (
     <>
         <motion.div 
-         className="lg:hidden top-0 fixed pl-[14vw] bg-[#150E28] w-screen h-screen pt-[5vh] z-[200]"
+         className="lg:hidden top-0 fixed pl-[14vw] bg-[#150E28] w-[100vh] h-screen pt-[5vh] z-[200]
+          overflow-hidden"
          ref={navBarRef}
          animate={{x:0}}
          initial={{x:-120}}
          >
-            <div className='mr-[4vw] mb-[16vh] relative z-[200]'>
+            <div className='mr-[85vw] md:mr-[4vw] mb-[16vh] relative z-[200]'>
                 <img src={xmark} alt=""  className='float-right w-[3vh] h-[3vh]' onClick={hideBarHandle}/>
             </div>
           <ul className="cursor-pointer TopNavBarFont text-xl font-extrabold">

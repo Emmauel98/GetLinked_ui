@@ -6,7 +6,7 @@
     /* animation: hop 1s infinite; */
     animation: twinkling 14s infinite;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-};
+}
 
 /* @keyframes hop {
     0%,100%{

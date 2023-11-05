@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Clash Display', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
 }
 .TopNavBarFont{
     font-family: 'Montserrat', sans-serif;

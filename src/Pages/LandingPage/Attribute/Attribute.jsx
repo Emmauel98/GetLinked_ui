@@ -57,7 +57,7 @@ const Attribute = () => {
           }}
           initial={{ opacity: 0 }}
           className="bg-[rgb(21,14,40)] w-full h-auto 
-          md:flex p-[8%] relative"
+          md:flex p-[8%] relative overflow-hidden"
         >
           <img src={Purple_Lens_Flare} alt="purple_lens_flare"
               className=" absolute lg:top-0 lg:right-[20vw]

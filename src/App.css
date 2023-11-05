@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Clash Display', sans-serif;
+    overflow-x: hidden;
     /* overflow: hidden; */
 }
 
@@ -20,12 +21,16 @@ body {
 }
 
 @keyframes twinkling {
-  0%, 100% {
+  0% {
     opacity: 0;
     margin-top: 0rem;
   }
   50% {
     opacity: 1;
     margin-top: 5rem;
+  }
+  100%{
+    opacity: 0;
+    margin-top: 0rem;
   }
 }

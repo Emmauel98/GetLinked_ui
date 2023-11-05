@@ -9,7 +9,7 @@ const PrivacyComponent = () => {
     <>
       <div
         className="bg-[rgb(17,11,32)] md:flex py-20
-           gap-10 px-[10vw] relative"
+           gap-10 px-[10vw] relative overflow-hidden"
       >
         <img src={Purple_Lens_Flare} alt="purple_lens_flare"
               className=" absolute lg:top-0 lg:right-[20vw]

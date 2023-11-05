@@ -17,7 +17,7 @@ import Purple_Lens_Flare from "./Images/Purple-Lens-Flare-PNG.png";
 const PartnersAndSponsors = () => {
   return (
     <>
-      <div className="bg-[rgb(17,11,32)] py-10 relative">
+      <div className="bg-[rgb(17,11,32)] py-10 relative overflow-hidden">
       <img src={Purple_Lens_Flare} alt="purple_lens_flare"
               className=" absolute lg:top-0 lg:right-[20vw]
               md:right-[10vw] right-[10vw] top-[25vh] opacity-30" />

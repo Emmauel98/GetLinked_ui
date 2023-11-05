@@ -24,19 +24,19 @@ const Herosection = () => {
     if (seconds !== 0) {
       interval = setInterval(() => {
         setSeconds((prevContent) => prevContent - 1);
-      }, 100);
+      }, 1000);
     }
     if (seconds === 0 && minutes !== 0) {
       Mininterval = setInterval(() => {
         setMinutes((prevContent) => prevContent - 1);
-      }, 100);
+      }, 1000);
     }
     if (minutes === 0 && hours !== 0) {
       Hourinterval = setInterval(() => {
         setHours((prevContent) => prevContent - 1);
         setMinutes(60);
         setSeconds(60);
-      }, 100);
+      }, 1000);
     }
 
     return () => {
@@ -48,7 +48,8 @@ const Herosection = () => {
 
   return (
     <>
-      <div className="bg-[#150E28] h-[120vh] md:h-[70vh] lg:h-[130vh] relative">
+      <div className="bg-[#150E28] h-[120vh] md:h-[70vh] lg:h-[130vh] relative overflow-y-hidden
+      overflow-x-hidden">
         <TopNavBar />
         <div className="relative top-[12vh]">
           <img src={purpleLensFlare} alt="" 
